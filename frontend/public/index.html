@@ -1,0 +1,26 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- App -->
+<div id="ukrsolution-barcode-scanner"></div>
+
+<div id="ukrsolution-barcode-scanner-modal"></div>
+<div id="ukrsolution-barcode-scanner-settings"></div>
+
+<script>
+  const domain = "http://192.168.0.77";
+  var usbs = JSON.stringify({
+    adminUrl: domain + "/wp-admin/",
+    appJsPath: domain + ":3002/static/js/bundle.js",
+    isWoocommerceActive: "1",
+    nonce: "d518b53df9",
+    pluginVersion: "master",
+    rest_root: domain + "/wp-json/",
+    uid: "1",
+    vendorJsPath: domain + ":3002/static/js/0.chunk.js",
+    websiteUrl: domain,
+    settings: {},
+  });
+</script>
+<a href="admin.php?page=barcode-scanner">Open modal</a>

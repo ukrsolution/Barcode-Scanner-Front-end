@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "i": "cd ../frontend && npm i",
+        "install": "cd ../frontend && npm i",
+        "build": "cd ../frontend && npm run build"
+    }
+}
